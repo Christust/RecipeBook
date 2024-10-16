@@ -1,6 +1,6 @@
 ﻿namespace RecipeBook.DTOs.Recipe
 {
-    public class ChefRecipes
+    public class RetrieveChefRecipes
     {
         public long Id { get; set; }
         public required string Name { get; set; }
