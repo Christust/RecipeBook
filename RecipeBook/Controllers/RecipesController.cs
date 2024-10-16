@@ -89,7 +89,6 @@ namespace RecipeBook.Controllers
                 Name = createRecipe.Name,
                 Description = createRecipe.Description,
                 ChefId = createRecipe.ChefId,
-                Chef = chef,
             };
             _context.Recipes.Add(recipe);
             await _context.SaveChangesAsync();
